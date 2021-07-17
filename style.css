@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+body{
+    font-family:'Merriweather', serif;
+    background-color:rgb(201, 202, 187);
+}
+h2{
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    text-transform:uppercase;
+}
+header{
+    font-size:60px;
+    text-align:center;
+    text-transform:uppercase;
+    padding-bottom:5px;
+    background-color:rgb(111, 12, 114);
+    color:white;
+}
+.header-icons {
+    font-size: 20px;
+    text-align:center;
+    padding-bottom:5px;
+}
+p{
+    font-size:16px;
+    word-spacing:3px;
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left: 10%;
+    margin-right:10%;
+}
+h3{
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:900; 
+}
+#About-Me{/* # = this is an id selector*/
+    text-align: center;
+}
+.index-header{/* . = this is a class selector*/
+    
+}
+.center{
+   text-align:center;
+   padding-bottom:2px;
+   padding-top: 2px;
+}
+.my-picture{
+    display:block;
+    width:220px;
+    height:300px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:50%;
+    border:5px solid black;
+    padding:2px;
+}
+.menu{
+    margin-top:5px;
+    margin-bottom:50px;
+    margin-bottom:10px;
+}
+.menu a{
+    text-decoration:none;
+    font-size:18px;
+    font-weight: 300;
+    color:white;
+    margin-right:20px;
+    
+}
+.menu a:hover{
+    font-weight:900;
+    
+}
+.Education{
+    font-size:2.5rem;
+}
+.Projects{
+    font-size:2.5rem;
+}
+.Contact-Me{
+    font-size:2.5rem;
+}
+.About-Me{
+    font-size:2.5rem;
+}
+ul{
+    font-size:20px;
+    text-align:center;
+    list-style-type:none;
+    margin-left:20%;
+    margin-right:20%;
+   
+}
+.container{
+    text-align:center;
+}
+/* .projects-area{
+    
+}
+.about-me-area{
+    
+} */
+.Contact-Me-Area{
+    background-color:rgb(111, 12, 114);
+    color:white;
+}
+.Education-Area{
+    background-color:rgb(111, 12, 114);
+    color:white;
+}
